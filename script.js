@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let isValid = true;
     let messages = [];
 
+    username.length;
+
     if (trimmedUsername.length < 3) {
       isValid = false;
       messages.push(

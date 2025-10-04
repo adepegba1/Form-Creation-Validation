@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (trimmedUsername.length < 3) {
       isValid = false;
-      messages.push("The name must be 3 character long");
+      messages.push(
+        `The name is ${trimmedUsername} character. it must be 3 character long`
+      );
     }
 
     if (!trimmedEmail.includes("@") || !trimmedEmail.includes(".")) {
